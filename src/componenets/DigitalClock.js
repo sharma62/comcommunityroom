@@ -10,7 +10,7 @@ const DigitalClock = () => {
     }, 1000);
 
   return (
-    <>
+    <> 
        <h1 style={{color:'red'}}>{currTime}</h1>
     </>
   )

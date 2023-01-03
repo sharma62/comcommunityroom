@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-  font-family: cursive;
-}
+ }
 
 .App-logo {
   height: 40vmin;
@@ -49,5 +48,6 @@
   color: #f042c4;
  }
  .color-g{
-  color: linear-gradient(  red , rgb(0, 106, 255));;
+  color: linear-gradient(  red , rgb(0, 106, 255),green);;
  }
+ 

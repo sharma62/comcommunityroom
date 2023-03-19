@@ -34,7 +34,7 @@ function App() {
             </span>
             all the time, people think that you're busy.
             "</blockquote>
-          <h1 className='font-bold text-8xl my-20 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>HeLLo</h1>
+          <h1 className='font-bold text-8xl my-10 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>HeLLo</h1>
           <h1 className="xl:text-7xl md:text-5xl font-semibold ">
             Welcome to <span className='text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 '> {app_name}</span>
           </h1>
@@ -43,11 +43,19 @@ function App() {
           <div className="w-8/12">
             <img src="https://app.svgator.com/assets/svgator.webapp/log-in-girl.svg" alt="" srcset="" />
           </div>
-          <div className="w-4/12 my-auto">
+          <div className="w-4/12 m-auto">
             <h3 className='text-center text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-pink-300 to-yellow-300 ' >Join us</h3>
-              
-             
+
           </div>
+        </div>
+        <div class="container flex mx-auto bg-slate-900  ">
+          <div className="work-model w-4/12">
+            <h3 className=''></h3>
+          </div>
+          <div className="img w-7/12">
+            <img src="" alt="image" srcset="" />
+          </div>
+
         </div>
 
 

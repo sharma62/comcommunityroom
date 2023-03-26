@@ -25,6 +25,7 @@ function App() {
             </ul>
           </div>
         </nav>
+
         {/* main body */}
         {/* Quote tag or slogan */}
         <div className="App-header mx-auto">
@@ -41,7 +42,7 @@ function App() {
           </h1>
         </div>
         {/* img & membership btn */}
-        <div class="container flex mx-auto bg-slate-900   ">
+        <div class="container flex mx-auto bg-slate-900  h-screen ">
           <div className="w-8/12">
             <img src="https://app.svgator.com/assets/svgator.webapp/log-in-girl.svg" alt="" srcset="" />
           </div>
@@ -49,7 +50,7 @@ function App() {
             <h3 className='text-center text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-pink-300 to-yellow-300 ' >Join us</h3>
 
             <div className='m-auto border-white hover:bg-slate-500 hover:font-bold p-3'>
-              <button className='grid-rows-2  transition hover:grid-rows-6 text-white  ease-in delay-50 hover:-translate-y-1 duration-300 '> Get in Touch</button>
+              <button className='grid-rows-2 transition hover:grid-rows-6 text-white  ease-in delay-50 hover:-translate-y-1 duration-300 '> Get in Touch</button>
             </div>
             <div className='m-auto hover:bg-slate-500 hover:font-bold p-3'>
               <button className='grid-rows-2  transition hover:grid-rows-6 text-white  ease-in delay-50 hover:-translate-y-1 duration-300 '> Become a Member</button>
@@ -62,12 +63,28 @@ function App() {
           <div className="w-7/12"></div>
         </div>
       </section>
+      {/* Programms */}
+      <section className='bg-slate-500'>
+        <h1 className=' text-center lg:text-7xl md:text-5xl sm:text-4xl font-semibold p-5 mt-10'> Ambassador Program ?</h1>
+        <div className="grid  container m-auto grid-cols-2 text-center gap-3 p-10">
+          <div className="p-3 shadow-slate-500">
+            <div className='m-auto border-white hover:bg-slate-700 hover:font-bold p-3'>
+              <button className='grid-rows-2 transition hover:grid-rows-6 text-white  ease-in delay-50 hover:-translate-y-1 duration-300 '> For School</button>
+            </div>
+          </div>
+          <div className="p-3 shadow-slate-500"><div className='m-auto border-white hover:bg-slate-800 hover:font-bold p-3'>
+            <button className='grid-rows-2 transition hover:grid-rows-6 text-white  ease-in delay-50 hover:-translate-y-1 duration-300 '> For Campus</button>
+          </div></div>
+
+
+        </div>
+
+      </section>
 
 
       {/* footer */}
-      <footer className='grid grid-col-3 gap-4 m-auto'>
+      <footer className='grid grid-col-3 gap-4 m-auto h-auto '>
         <div className="text-center p-3 font-bold">All Rights reserved @ ComComunityroom.org</div>
-  
       </footer>
     </>
   );

@@ -21,9 +21,6 @@ function App() {
           <Route path='/event' element={<NavEvents />} />
           <Route path='/project' element={<Greeing />} />
           <Route path={`*`} element={<ComingSoon/>} />
-          
-
-
         </Routes>
         <Footer app_name={appName}/>
 

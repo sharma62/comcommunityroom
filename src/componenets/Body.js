@@ -27,8 +27,8 @@ const Body = (props) => {
                         <h3 className='text-center text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-800 via-pink-300 to-yellow-300 ' >Join us</h3>
 
                         <div className='m-auto border-white hover:bg-slate-500 hover:font-bold p-3'>
-                            <button className='grid-rows-2 transition hover:grid-rows-6 text-white  ease-in delay-50 hover:-translate-y-1 duration-300 '> Get in Touch</button>
-                        </div>
+                                 <a className='grid-rows-2 transition hover:grid-rows-6 text-white  ease-in delay-50 hover:-translate-y-1 duration-300  ' href="https://docs.google.com/forms/d/e/1FAIpQLScbRSjwj7hiFajjwfHex_lLirIiJgbSad-MjKY019jHLnkEjw/viewform"> Get in Touch</a>
+                         </div>
                         <div className='m-auto hover:bg-slate-500 hover:font-bold p-3'>
                             <button className='grid-rows-2  transition hover:grid-rows-6 text-white  ease-in delay-50 hover:-translate-y-1 duration-300 '> Become a Member</button>
                         </div>

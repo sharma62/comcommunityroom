@@ -16,10 +16,11 @@ const CommonError = () => {
 const ComingSoon = () => {
   return (
     <>
-      <section className='container m-auto text-center bg-slate-50 h-96 '>
-        <h1 className='font-extrabold text-6xl p-10 text-slate-100'>Available Sooon !</h1>
-        <h5 className='text-2xl font-semibold  '>Sorry For inconvenince</h5>
-      <button className= 'hover:bg-slate-500 mt-5 p-5 '> <Link to ="/">Home Page</Link> </button>
+      <section className='container m-auto text-center bg-slate-50 h-96  border-b-2 shadow '>
+        <h1 className='font-extrabold text-6xl p-10 text-slate-300'>Available Sooon !</h1>
+        <h5 className='text-2xl font-semibold opacity-30 '>Sorry For inconvenince</h5>
+        <button className='hover:bg-slate-300 mt-5 p-5  hover:shadow '>
+          <Link to="/">Home Page</Link> </button>
       </section>
     </>
   )
@@ -27,4 +28,4 @@ const ComingSoon = () => {
 
 
 
-export {CommonError , ComingSoon }
+export { CommonError, ComingSoon }

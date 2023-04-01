@@ -5,8 +5,9 @@ import Body from './componenets/Body';
 import Footer from './componenets/Footer';
 import Nav from './componenets/Nav';
 import NavEvents from './componenets/NavEvents';
-import Greeing from './componenets/Greeting';
-import {CommonError,ComingSoon} from './componenets/CommonError';
+import {ComingSoon} from './componenets/CommonError';
+import Projacts from './componenets/Projacts';
+import {GetInTouch} from './componenets/Form';
 
 function App() {
   const appName = 'comCommunityRoom.org'
@@ -16,10 +17,11 @@ function App() {
         {/* nav */}
         <Nav />
         <Routes>
-
           <Route path='/' element={<Body app_name={appName} />} />
           <Route path='/event' element={<NavEvents />} />
-          <Route path='/project' element={<Greeing />} />
+          <Route path='/project' element={<Projacts   />} />
+          <Route path='/Get_in_touch' element={<GetInTouch/>} />
+          
           <Route path={`*`} element={<ComingSoon/>} />
         </Routes>
         <Footer app_name={appName}/>
